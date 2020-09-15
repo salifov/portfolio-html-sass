@@ -111,6 +111,11 @@ main {
   background: lighten($primary-color, 5);
   padding: 0.5rem;
   border-bottom: $secondary-color 5px solid;
+
+  span {
+    color: $secondary-color;
+    font-weight: 400;
+  }
 }
 
 //My Work Page
